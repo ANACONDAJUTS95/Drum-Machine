@@ -1,69 +1,66 @@
 #title {
-    font-size: 3em;
-    font-weight: bold;
-    padding-bottom: 5vh;
-    color: rgb(31, 31, 31);
-  }
-  
-  #title p {
-    font-size: 0.3em;
-    font-weight: normal;
-  }
-  
-  body {
-    font-family: 'Roboto', sans-serif;
-    background-color: #f8f8f8; /* Red-ish maroon background */
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100vh;
-    margin: 0;
-  }
-  
-  #drum-machine {
-    text-align: center;
-  }
-  
-  #display {
-    font-size: 1.5em;
-    margin-top: 80px;
-    color: rgb(31, 31, 31);
-    font-weight: 800;
-    text-decoration: underline;
-    text-transform: uppercase;
-  }
-  
-  .drum-pad-container {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    gap: 10px;
-    padding: 20px;
-    border-radius: 10px;
-    background-color: #333;
-  }
-  
-  .drum-pad {
-    width: 80px;
-    height: 80px;
-    border-radius: 10px;
-    background-color: #aaa;
-    box-shadow: 0 4px #666;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    cursor: pointer;
-    user-select: none;
-    font-size: 1.2em;
-    color: white;
-  }
-  
-  .drum-pad-active, .drum-pad:active {
-    background-color: #007aff;
-    box-shadow: 0 2px #005bb5;
-    transform: translateY(2px);
-    color: rgb(255, 255, 255);
-  }
-  
-  .clip {
-    display: none;
-  }
+  font-size: 3em;
+  font-weight: bold;
+  padding-bottom: 5vh;
+  color: white;
+}
+
+#title p {
+  font-size: 0.3em;
+  font-weight: normal;
+}
+
+body {
+  font-family: 'Raleway', sans-serif;
+  background-color: #800000; /* Red-ish maroon background */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+}
+
+#drum-machine {
+  text-align: center;
+}
+
+#display {
+  font-size: 1.5em;
+  margin-top: 20px;
+  color: white;
+}
+
+.drum-pad-container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 10px;
+  padding: 20px;
+  border-radius: 10px;
+  background-color: #333;
+}
+
+.drum-pad {
+  width: 80px;
+  height: 80px;
+  border-radius: 10px;
+  background-color: #aaa;
+  box-shadow: 0 4px #666;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  user-select: none;
+  font-size: 1.2em;
+  color: white;
+}
+
+.drum-pad-active, .drum-pad:active {
+  background-color: #3EFF4F;
+  box-shadow: 0 2px #666;
+  transform: translateY(2px);
+  color: black;
+}
+
+.clip {
+  display: none;
+}
